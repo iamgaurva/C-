@@ -13,7 +13,7 @@ int main() {
 		cout<< "Can't form the triangle";
 	}
 	
-	if (a=b=c){
+	if (a==b && b==c && a==c){
 	    cout <<"E";
 	}
 	else if(a==b || b==c || a==c){
